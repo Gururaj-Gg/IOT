@@ -1,0 +1,27 @@
+<html>
+	<body>
+		<title>Rasberry PI Remote Control
+		</title>
+		<h1>Light status:{{status}},Last modified:{{time}}</h1>
+		<form action="http://172.16.0.83:4000/redledon" name="f1">
+		<input type="submit" value="Red led on">
+		</form>
+		<form action="http://172.16.0.83:4000/redledoff" name="f2">
+		<input type="submit" value="Red led off">
+		</form>
+		<h1>Light status:{{status1}},Last modified:{{time}}</h1>
+		<form action="http://172.16.0.83:4000/redled1on" name="f3">
+		<input type="submit" value="Red led1 on">
+		</form>
+		<form action="http://172.16.0.83:4000/redled1off" name="f4">
+		<input type="submit" value="Red led1 off">
+		</form>
+		<h1>Light status:{{status2}},Last modified:{{time}}</h1>
+		<form action="http://172.16.0.83:4000/redled2on" name="f5">
+		<input type="submit" value="Red led2 on">
+		</form>
+		<form action="http://172.16.0.83:4000/redled2off" name="f6">
+		<input type="submit" value="Red led2 off">
+		</form>
+	</body>
+</html>
